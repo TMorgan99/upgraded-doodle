@@ -1,0 +1,24 @@
+{
+  "name": "upgraded-doodle",
+  "version": "1.0.0",
+  "description": "You should've seen the last one.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMorgan99/upgraded-doodle.git"
+  },
+  "keywords": [],
+  "author": "Tim Morgan <tmorgan99@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TMorgan99/upgraded-doodle/issues"
+  },
+  "homepage": "https://github.com/TMorgan99/upgraded-doodle#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
