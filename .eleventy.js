@@ -37,6 +37,9 @@ module.exports = config => {
   );
 
 
+  /* --- PASSTHROUGHS --- */
+
+  config.addPassthroughCopy('src/images');    // also the 11ty.js file... 
 
   // 11ty defaults
   return {

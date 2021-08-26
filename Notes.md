@@ -238,3 +238,15 @@ Here are few handy filters we can easily slap into the code.
 
 ./lib/filters/dateformat.js
 ./lib.filters/readtime.js
+
+## Process Images with JavaScript Templates
+
+What are these libs ?
+
+```bash
+npm i -D imagemin imagemin-mozjpeg imagemin-pngquant imagemin-svgo
+```
+
+But these are modules
+
+npm i esm --save
