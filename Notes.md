@@ -247,6 +247,16 @@ What are these libs ?
 npm i -D imagemin imagemin-mozjpeg imagemin-pngquant imagemin-svgo
 ```
 
-But these are modules
+Version 8. Example code was Version 7.
+But these are modules, and I need to import them.
 
-npm i esm --save
+
+npm i esm --save ???
+
+
+## CSS Transforms.
+
+#### PostCSS
+npm i -D postcss postcss-advanced-variables postcss-nested postcss-scss cssnano
+
+Just glommed in the scss and made it run.

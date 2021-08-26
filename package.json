@@ -20,6 +20,11 @@
   "homepage": "https://github.com/TMorgan99/upgraded-doodle#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.3.2"
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.6",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-nested": "^5.0.6",
+    "postcss-scss": "^4.0.0"
   }
 }

@@ -36,6 +36,10 @@ module.exports = config => {
 
   );
 
+  // CSS processing
+  config.addTransform('postcss', require('./lib/transforms/postcss'));
+  config.addWatchTarget('./src/scss/');
+
 
   /* --- PASSTHROUGHS --- */
 
