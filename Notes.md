@@ -188,3 +188,53 @@ don't forget the parent: about option for the sub-pages.
 This links in a `navlist` shortcode that twists and turns and spits out a snipped of `html` for each page.
 Thankfully, someone else put it together.
 
+##  Article/Blog Posts
+<pre>
+‐‐‐
+title: The first article
+description: This is the first article.
+date: 2020-09-01
+tags:
+  - HTML
+  - CSS
+‐‐‐
+
+This is an article post.
+
+## Subheading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</pre>
+
+Got the string of articles working, but the SSG generates all pages, even the drafts.
+They do not appear in the navigation
+
+I should set up some CSS to watermark it.
+
+
+### Article index page
+
+
+<pre>
+‐‐‐
+title: Article index
+description: A list of articles published on this site.
+layout: page.njk
+eleventyNavigation:
+  key: articles
+  order: 900
+pagination:
+  data: collections.post
+  alias: pagelist
+  reverse: true
+  size: 3
+‐‐‐
+
+The following articles are available.
+</pre>
+
+
+Here are few handy filters we can easily slap into the code.
+
+./lib/filters/dateformat.js
+./lib.filters/readtime.js
