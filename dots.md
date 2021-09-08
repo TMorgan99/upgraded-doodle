@@ -18,8 +18,8 @@ git config --global user.email      "tmorgan99@gmail.com"
 
 ### [npm]
 ```bash
-npm config set init-author-name = "Tim Morgan <tmorgan99@gmail.com>"
-npm config set init-version = "0.0.1"
+npm config set init-author-name     "Tim Morgan <tmorgan99@gmail.com>"
+npm config set init-version         "0.0.1"
 ```
 
 Thanks, Github, for this little feature, all code blocks have a copy button.
