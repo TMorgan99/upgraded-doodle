@@ -18,6 +18,10 @@ git config --global user.email      "tmorgan99@gmail.com"
 
 ### [npm]
 ```bash
+
+sudo ln -sf `pwd`/node-v14.17.6-linux-x64/bin/* /usr/local/bin
+sudo ln -sf `pwd`/node-v14.17.6-linux-x64/lib/* /usr/local/lib
+node --version
 npm config set init-author-name     "Tim Morgan <tmorgan99@gmail.com>"
 npm config set init-version         "0.0.1"
 ```
